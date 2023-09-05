@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoldText Component renders correctly with custom font size 1`] = `
+<Text
+  fontSize={18}
+  style={
+    {
+      "fontFamily": "Bold",
+      "fontSize": 27,
+    }
+  }
+>
+  Custom Font Size
+</Text>
+`;
+
+exports[`BoldText Component renders correctly with default props 1`] = `
+<Text
+  style={
+    {
+      "fontFamily": "Bold",
+      "fontSize": 21,
+    }
+  }
+>
+  Hello, World!
+</Text>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Component applies custom styles 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    color="#51e2c3"
+    size="large"
+    style={
+      {
+        "backgroundColor": "blue",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Loader Component renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    color="#51e2c3"
+    size="large"
+  />
+</View>
+`;

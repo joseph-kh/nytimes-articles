@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderTitle Component renders correctly 1`] = `
+<View
+  style={
+    {
+      "paddingRight": 40,
+      "width": 300,
+    }
+  }
+>
+  <Text
+    ellipsizeMode="tail"
+    numberOfLines={1}
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "SemiBold",
+        "fontSize": 30,
+      }
+    }
+  >
+    Header Text
+  </Text>
+</View>
+`;

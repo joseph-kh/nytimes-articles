@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegularText Component renders correctly with custom font size 1`] = `
+<Text
+  fontSize={18}
+  style={
+    {
+      "fontFamily": "Regular",
+      "fontSize": 27,
+    }
+  }
+>
+  Custom Font Size
+</Text>
+`;
+
+exports[`RegularText Component renders correctly with default props 1`] = `
+<Text
+  style={
+    {
+      "fontFamily": "Regular",
+      "fontSize": 21,
+    }
+  }
+>
+  Hello, World!
+</Text>
+`;

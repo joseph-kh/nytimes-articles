@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorModal Component renders correctly when not visible 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={false}
+/>
+`;
+
+exports[`ErrorModal Component renders correctly when visible 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 12,
+          "elevation": 5,
+          "paddingVertical": 24.642857142857142,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 4,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "paddingHorizontal": 60,
+          }
+        }
+      >
+        <Text />
+        <Text
+          style={
+            {
+              "fontFamily": "Bold",
+              "fontSize": 21,
+              "textAlign": "center",
+            }
+          }
+        >
+          Error Title
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Regular",
+              "fontSize": 21,
+              "textAlign": "center",
+            }
+          }
+        >
+          Error Message
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "backgroundColor": "#7e7e7e",
+            "borderBottomWidth": 0.75,
+            "marginVertical": 16.428571428571427,
+            "opacity": 0.4,
+          }
+        }
+      />
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "alignSelf": "center",
+              "color": "#51e2c3",
+              "fontFamily": "SemiBold",
+              "fontSize": 24,
+              "textAlign": "center",
+            }
+          }
+        >
+          Confirm
+        </Text>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

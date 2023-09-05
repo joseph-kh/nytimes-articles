@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Component renders correctly 1`] = `
+<Text
+  style={
+    {
+      "fontFamily": "Bold",
+      "fontSize": 21,
+    }
+  }
+  title="Sample Title"
+>
+  Sample Title
+</Text>
+`;

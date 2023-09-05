@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row Component applies custom styles 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "red",
+      "flexDirection": "row",
+    }
+  }
+>
+  Hello, World!
+</View>
+`;
+
+exports[`Row Component renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  Hello, World!
+</View>
+`;

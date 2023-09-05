@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider Component applies custom styles 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "red",
+      "borderBottomWidth": 0.75,
+      "opacity": 0.4,
+    }
+  }
+/>
+`;
+
+exports[`Divider Component renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#7e7e7e",
+      "borderBottomWidth": 0.75,
+      "opacity": 0.4,
+    }
+  }
+/>
+`;

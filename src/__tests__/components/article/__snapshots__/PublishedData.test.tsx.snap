@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublishedDate Component renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text />
+  <Text
+    style={
+      {
+        "color": "#7e7e7e",
+        "fontFamily": "Regular",
+        "fontSize": 21,
+      }
+    }
+  >
+    2023-09-03
+  </Text>
+</View>
+`;

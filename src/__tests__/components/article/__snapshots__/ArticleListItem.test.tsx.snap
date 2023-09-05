@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleListItem Component renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "opacity": 1,
+      "paddingHorizontal": 30,
+      "paddingVertical": 16.428571428571427,
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "uri": "https://cdn.discordapp.com/attachments/1148605640856572054/1148605814857277581/56117400-9a911800-5f85-11e9-878b-3f998609a6c8.jpg",
+      }
+    }
+    style={
+      {
+        "borderRadius": 37.5,
+        "height": 75,
+        "width": 75,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "flex": 0.8,
+        "marginLeft": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontFamily": "Bold",
+          "fontSize": 21,
+          "marginBottom": 24.642857142857142,
+        }
+      }
+      title="Sample Article"
+    >
+      Sample Article
+    </Text>
+    <Text
+      author="John Doe"
+      style={
+        {
+          "color": "#7e7e7e",
+          "fontFamily": "Italic",
+          "fontSize": 21,
+        }
+      }
+    >
+      John Doe
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7e7e7e",
+            "fontFamily": "Regular",
+            "fontSize": 21,
+          }
+        }
+      >
+        React Native
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text />
+        <Text
+          style={
+            {
+              "color": "#7e7e7e",
+              "fontFamily": "Regular",
+              "fontSize": 21,
+            }
+          }
+        >
+          2023-09-01
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "flex-end",
+        "flex": 0.2,
+      }
+    }
+  >
+    <Text />
+  </View>
+</View>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Author Component applies custom styles 1`] = `
+<Text
+  author="John Doe"
+  style={
+    {
+      "color": "#7e7e7e",
+      "fontFamily": "Italic",
+      "fontSize": 16,
+    }
+  }
+>
+  John Doe
+</Text>
+`;
+
+exports[`Author Component renders correctly 1`] = `
+<Text
+  author="John Doe"
+  style={
+    {
+      "color": "#7e7e7e",
+      "fontFamily": "Italic",
+      "fontSize": 21,
+    }
+  }
+>
+  John Doe
+</Text>
+`;
