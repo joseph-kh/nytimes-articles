@@ -4,9 +4,9 @@ A simple mobile app that calls the NY Times Most Popular Articles API and shows 
 
 ## Screenshots
 
-<img src="https://cdn.discordapp.com/attachments/1148605640856572054/1148605814190387291/Screenshot_1693906885.png" alt="Articles List" width="250px" height="" /> &nbsp; <img src="https://cdn.discordapp.com/attachments/1148605640856572054/1148605813649317888/Screenshot_1693906893.png" alt="Articles Display Page" width="250px" height="" /> &nbsp; <img src="https://cdn.discordapp.com/attachments/1148605640856572054/1148605814588837978/Screenshot_1693912144.png" alt="Error popup" width="250px" height="" />
+<img src="https://cdn.discordapp.com/attachments/1148605640856572054/1148605814190387291/Screenshot_1693906885.png?ex=66153e06&is=6602c906&hm=93ade49480bc2d20e484167dfae20537f9e0cf8ab3c129351443f1dab38e3a1d&" alt="Articles List" width="250px" height="" /> &nbsp; <img src="https://cdn.discordapp.com/attachments/1148605640856572054/1148605813649317888/Screenshot_1693906893.png?ex=66153e06&is=6602c906&hm=f3e542a7bc12a6606f94908fe97fdad2e882a03f5be6842dccb480a1ecb44cd0&" alt="Articles Display Page" width="250px" height="" /> &nbsp; <img src="https://cdn.discordapp.com/attachments/1148605640856572054/1148605814588837978/Screenshot_1693912144.png?ex=66153e06&is=6602c906&hm=49f5739f068eedfe6839dfff7d8d72ff5276b6fb2816d1a426dbc98be16c2d1d&" alt="Error popup" width="250px" height="" />
 
-<img src="https://cdn.discordapp.com/attachments/1148605640856572054/1148608102145458266/localhost_8081_.png" alt="Error popup" width="775px" height="" />
+<img src="https://cdn.discordapp.com/attachments/1148605640856572054/1148608102145458266/localhost_8081_.png?ex=66154027&is=6602cb27&hm=19495b8f24e1938fa274f371d6811c648de8f8ef884ede23501500c99ee4d8a4&" alt="Error popup" width="775px" height="" />
 
 ## Design Pattern
 
