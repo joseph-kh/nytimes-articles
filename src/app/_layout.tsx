@@ -56,7 +56,7 @@ const RootLayoutNav = () => {
             headerStyle: { backgroundColor: COLORS.primary },
             headerTintColor: COLORS.white,
             headerTitleStyle: { color: COLORS.white },
-            animation: "slide_from_left",
+            animation: "slide_from_right",
           }}
         >
           <Stack.Screen

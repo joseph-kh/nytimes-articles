@@ -19,7 +19,12 @@ const ArticleDetails: React.FC = () => {
         <Title title={title} fontSize={18} />
       </View>
 
-      <Image source={{ uri: media }} style={styles.imageStyle} />
+      <Image
+        source={
+          media ? { uri: media } : require("@/assets/images/placeholder.jpg")
+        }
+        style={styles.imageStyle}
+      />
 
       <View style={styles.abstractContainer}>
         <RegularText>{abstract}</RegularText>

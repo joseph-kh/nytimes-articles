@@ -44,9 +44,7 @@ const Articles: React.FC = () => {
         byline: result.byline || "N/A",
         section: result.section || "N/A",
         abstract: result.abstract,
-        media:
-          result.media[0]?.["media-metadata"][2].url ||
-          "https://cdn.discordapp.com/attachments/1148605640856572054/1148605814857277581/56117400-9a911800-5f85-11e9-878b-3f998609a6c8.jpg",
+        media: result.media[0]?.["media-metadata"][2].url || "",
       };
     }
   );

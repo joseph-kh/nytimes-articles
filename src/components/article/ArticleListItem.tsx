@@ -21,7 +21,12 @@ const ArticleListItem: React.FC<ArticleListItemProps> = (props) => {
 
   return (
     <TouchableOpacity onPress={onArticlePress} style={styles.container}>
-      <Image source={{ uri: media }} style={styles.imageStyle} />
+      <Image
+        source={
+          media ? { uri: media } : require("@/assets/images/placeholder.jpg")
+        }
+        style={styles.imageStyle}
+      />
 
       <View style={styles.infoContainer}>
         <Title title={title} style={styles.titleStyle} />
